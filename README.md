@@ -7,7 +7,7 @@ Extract 50 invoices (`data/pdf`) into CSV with four methods and compare each aga
 | 1. Rules (pdfplumber + regex, no LLM) | `methods/method1_rules.py` | done |
 | 2. Low-cost LLM (Gemini flash-lite, free tier) | `methods/method2_gemini.py` | done |
 | 3. Expensive LLM (Claude Opus via Claude Code CLI) | `methods/method3_claude.py` | done |
-| 4. Refined | | todo |
+| 4. Refined: hybrid (Gemini flash-lite transcribes, Python computes) | `methods/method4_hybrid.py` | done |
 
 ## Setup
 
@@ -24,6 +24,7 @@ py -m methods.method1_rules              # writes outputs/method1_rules.csv
 py evaluate.py outputs/method1_rules.csv # writes results/method1_eval.md, results/method1_errors.csv
 py -m methods.method2_gemini             # needs GEMINI_API_KEY=... in .env
 py -m methods.method3_claude             # needs the `claude` CLI, logged in
+py -m methods.method4_hybrid             # needs GEMINI_API_KEY=... in .env
 ```
 
 Methods 2 and 3 share one prompt and run loop (`methods/llm_common.py`) and read the same pdfplumber text as method 1. Each writes `outputs/<method>.csv` and a per-invoice token log `results/<method>_usage.csv`. A failed call leaves an empty row with the error in the usage log; rerunning retries only the failed or missing invoices.
@@ -42,3 +43,5 @@ All methods write the same CSV, one row per invoice, defined in `schema.py`:
 ## Evaluation
 
 `evaluate.py` compares a method CSV field by field with the ground truth: `subtotal`/`total` against `rendered_subtotal`/`rendered_total`, `arithmetic_flag` against `variants.consistency != "correct"`, amounts within 0.01. It reports accuracy per field and per value of each `variants` key.
+
+The four methods are compared in `results/comparison.md`.

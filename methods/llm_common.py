@@ -54,7 +54,7 @@ def _read(path):
         return {r["invoice_id"]: r for r in csv.DictReader(f)}
 
 
-def run(method, call):
+def run(method, call, prompt=PROMPT, parse=parse_row):
     """Run `call` over all invoices, resuming from earlier runs.
 
     call(prompt) -> (reply_text, usage_dict with any of model/input_tokens/output_tokens/cost_usd)
@@ -69,8 +69,8 @@ def run(method, call):
             continue
         row, u, start = {}, {}, time.time()
         try:
-            reply, u = call(PROMPT + pdf_text(pdf))
-            row = parse_row(reply)
+            reply, u = call(prompt + pdf_text(pdf))
+            row = parse(reply)
         except Exception as e:  # one bad call must not stop the run: empty row, error logged
             u["error"] = f"{type(e).__name__}: {e}"[:300].replace("\n", " ")
         row["invoice_id"] = inv  # keyed by file name so a misread number cannot drop the row
