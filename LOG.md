@@ -3,3 +3,5 @@
 | Date | Task | Time spent | Cost |
 |---|---|---|---|
 | 2026-10-05 | Setup, shared schema, method 1 (rules), evaluator | 20 min | no LLM API calls |
+| 2026-10-05 | Method 2 (Gemini flash-lite), 50 invoices |  5 min (plus 12 min unattended run time) | Gemini free tier, 44,388 input / 10,256 output tokens |
+| 2026-10-05 | Method 3 (Claude Opus 5.5), 50 invoices |  5 min (plus 5 min unattended run time) | Claude Pro subscription via Claude Code CLI, 80,427 input / 21,639 output tokens, API-equivalent $1.08 |

@@ -12,6 +12,7 @@ import pdfplumber
 from schema import write_csv
 
 ROOT = Path(__file__).resolve().parent.parent
+PDF_DIR = ROOT / "data" / "pdf"
 CENT = Decimal("0.01")
 
 # 1.234,56 (german) / 1'234.56 (swiss) / 1,234.56 (english) / 1234.56
@@ -28,6 +29,11 @@ COUNTRIES = {
     "united kingdom": "GB",
 }
 DATE_FORMATS = ["%d %B %Y", "%d %b %Y", "%B %d, %Y", "%d.%m.%Y", "%d/%m/%Y", "%Y-%m-%d"]
+
+
+def pdf_text(pdf):
+    with pdfplumber.open(pdf) as doc:
+        return "\n".join(page.extract_text() or "" for page in doc.pages)
 
 
 def to_dec(s):
@@ -146,10 +152,8 @@ def main():
     assert amounts("ref. FA-2021-895 (-2.5%): -2.082,54 EUR") == [Decimal("-2082.54")]
 
     rows = []
-    for pdf in sorted((ROOT / "data" / "pdf").glob("*.pdf")):
-        with pdfplumber.open(pdf) as doc:
-            text = "\n".join(page.extract_text() or "" for page in doc.pages)
-        row = extract(text)
+    for pdf in sorted(PDF_DIR.glob("*.pdf")):
+        row = extract(pdf_text(pdf))
         row.setdefault("invoice_id", pdf.stem)
         rows.append(row)
     out = ROOT / "outputs" / "method1_rules.csv"

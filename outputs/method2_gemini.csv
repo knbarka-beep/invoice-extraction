@@ -1,0 +1,51 @@
+invoice_id,vendor,vendor_country,recipient,recipient_country,date,due_date,currency,subtotal,vat_rate,vat_amount,discount_amount,total,is_credit_note,arithmetic_flag
+INV-2026-0001,Praxis Consulting Group AG,AT,Bergkristall Maschinenbau GmbH,DE,2026-04-15,2026-05-15,EUR,210215.90,0.20,42043.18,4204.32,248054.76,false,false
+INV-2026-0002,ACME Laboratories International S.A.,FR,Europäische Verwaltungskontor AG,AT,2026-04-10,2026-05-10,EUR,155350.70,0.20,31070.14,3107.01,188813.24,false,true
+INV-2026-0003,Pearson Hardman,GB,Bergkristall Maschinenbau GmbH,DE,2026-04-11,2026-05-11,EUR,82516.00,0.20,16503.20,0.00,99019.20,false,false
+INV-2026-0004,Vandelay Industries GmbH,AT,Mittelstand Digital Solutions GmbH,DE,2026-02-23,2026-03-25,EUR,185794.90,0.20,37158.98,0.00,218494.80,false,true
+INV-2026-0005,Initech Solutions GmbH,DE,Groupe Industriel Dufresne S.A.,FR,2026-03-04,2026-03-18,EUR,60403.40,0.20,12080.68,1812.10,70671.98,false,true
+INV-2026-0006,Stark Industries Europe Ltd,GB,Benelux Windmill Automation B.V.,NL,2026-03-05,2026-03-05,EUR,12922.87,0.20,2584.57,645.94,14856.50,false,true
+INV-2026-0007,Stark Industries Europe Ltd,GB,Groupe Industriel Dufresne S.A.,FR,2026-03-09,2026-03-09,EUR,117538.10,0.20,23507.62,8815.36,132230.36,false,true
+INV-2026-0008,Los Pollos Hermanos Europe LLC,GB,Rheintal Infrastruktur Holding AG,AT,2026-03-13,2026-04-12,EUR,167660.50,0.20,33532.10,0.00,201192.60,false,false
+INV-2026-0009,Praxis Consulting Group AG,AT,Baltic Amber Services OÜ,EE,2026-02-17,2026-03-19,EUR,93761.20,0.20,18752.24,0.00,112513.44,false,false
+INV-2026-0010,Prestige Worldwide Ltd,GB,Donaustadt Digitalisierung GmbH,AT,2026-03-25,2026-04-24,EUR,194488.40,0.20,38897.68,3889.77,229496.31,false,false
+INV-2026-0011,Vandelay Industries GmbH,AT,Instituto Meridiano Tecnológico S.L.,ES,2026-02-12,2026-04-13,EUR,5807.30,0.20,1159.46,289.87,6666.89,false,true
+INV-2026-0012,Tyrell Corporation Europe S.à r.l.,FR,Baltic Amber Services OÜ,EE,2026-03-22,2026-04-21,EUR,139016.20,0.20,27803.24,6950.81,163066.00,false,false
+INV-2026-0013,Pierce & Pierce Holdings Ltd,GB,Bergkristall Maschinenbau GmbH,DE,2026-01-23,2026-02-06,EUR,15743.90,0.20,3148.78,0.00,18892.68,false,true
+INV-2026-0014,InGen BioSciences S.A.,FR,Société Continentale de Logistique S.A.,FR,2026-01-20,2026-01-20,EUR,-66351.10,0.20,-13270.22,0.00,-79621.32,true,false
+INV-2026-0015,Dunder Mifflin Europe GmbH,DE,Rheintal Infrastruktur Holding AG,AT,2026-01-04,2026-03-05,EUR,133273.83,0.20,26654.77,10.00,159918.60,false,false
+INV-2026-0016,Sterling Cooper Draper Pryce,GB,Rheintal Infrastruktur Holding AG,AT,2026-01-12,2026-02-11,EUR,-121816.00,0.20,-24363.20,0.00,-144717.41,true,true
+INV-2026-0017,Wonka Industries AG,CH,Mittelstand Digital Solutions GmbH,DE,2026-04-07,2026-04-21,EUR,144906.40,0.20,28981.28,0.00,173887.68,false,false
+INV-2026-0018,Massive Dynamic Europe Ltd,GB,Caledonian Moor Pension Management Ltd,GB,2026-02-20,2026-03-22,EUR,191180.53,0.20,38236.11,0.00,229466.64,false,true
+INV-2026-0019,Gekko & Associates Capital Advisory,GB,Alpenvista Kredit AG,CH,2026-03-31,2026-04-30,EUR,111542.30,0.20,22308.46,7807.96,126042.80,false,false
+INV-2026-0020,Bluth Development Company LLC,GB,Mittelstand Digital Solutions GmbH,DE,2026-01-02,2026-01-16,EUR,321030.20,0.00,0.00,0.00,321030.20,false,false
+INV-2026-0021,Pierce & Pierce Holdings Ltd,GB,Bergkristall Maschinenbau GmbH,DE,2026-01-10,2026-02-09,EUR,260061.20,0.20,52010.24,0.00,312061.44,false,false
+INV-2026-0022,Umbrella Corporation Europe AG,CH,Instituto Meridiano Tecnológico S.L.,ES,2026-04-08,2026-06-07,EUR,184561.30,0.20,36912.26,13842.10,207631.46,false,true
+INV-2026-0023,Sterling Cooper Draper Pryce,GB,Baltic Amber Services OÜ,EE,2026-01-03,2026-02-02,EUR,205107.30,0.20,41021.46,0.00,246128.76,false,true
+INV-2026-0024,Weyland-Yutani Europe S.A.,FR,Baltic Amber Services OÜ,EE,2026-02-14,2026-03-16,EUR,7600.00,0.20,1518.00,759.00,8349.00,false,false
+INV-2026-0025,Praxis Consulting Group AG,AT,Thames Gate Capital Partners LLP,GB,2026-02-12,2026-02-26,EUR,11303.20,0.20,2260.64,0.00,13156.92,false,true
+INV-2026-0026,Hooli Enterprise Solutions GmbH,DE,Benelux Windmill Automation B.V.,NL,2026-02-06,2026-03-08,EUR,340868.70,0.20,68173.74,17043.44,384159.02,false,true
+INV-2026-0027,Sabre International GmbH,AT,Alpenvista Kredit AG,CH,2026-03-26,2026-04-09,EUR,49267.50,0.20,9853.50,3695.06,55425.94,false,true
+INV-2026-0028,Nakatomi Trading Corporation,GB,Caledonian Moor Pension Management Ltd,GB,2026-02-09,2026-04-10,EUR,19490.40,0.20,3898.08,0.00,23388.48,false,false
+INV-2026-0029,Soylent GmbH & Co. KG,DE,Alpenvista Kredit AG,CH,2026-01-12,2026-01-12,EUR,8877.60,0.00,0.00,0.00,8877.60,false,false
+INV-2026-0030,ACME Laboratories International S.A.,FR,Helvetica Technische Beratung AG,CH,2026-02-28,2026-04-29,EUR,74574.60,0.20,14914.92,5593.10,82218.49,false,true
+INV-2026-0031,Stratton Oakmont Partners AG,CH,Thames Gate Capital Partners LLP,GB,2026-04-15,2026-04-29,EUR,6091.00,0.20,1218.20,304.55,7004.65,false,true
+INV-2026-0032,Weyland-Yutani Europe S.A.,FR,Helvetica Technische Beratung AG,CH,2026-03-23,2026-04-22,EUR,265907.40,0.20,53179.48,18612.82,300464.06,false,false
+INV-2026-0033,InGen BioSciences S.A.,FR,Europäische Verwaltungskontor AG,AT,2026-03-21,2026-04-04,EUR,151126.70,0.20,30225.34,0.00,181352.04,false,false
+INV-2026-0034,Duff Beverages Ltd.,GB,Nordic Lighthouse Infrastructure AS,NO,2026-01-07,2026-01-21,EUR,434010.12,,,0.00,434010.12,false,false
+INV-2026-0035,Rekall Incorporated,GB,Europäische Verwaltungskontor AG,AT,2026-03-05,2026-05-04,EUR,16679.30,0.20,3325.86,0.00,19955.16,false,true
+INV-2026-0036,Nakatomi Trading Corporation,GB,Caledonian Moor Pension Management Ltd,GB,2026-02-22,2026-04-23,EUR,141617.10,0.20,28323.42,0.00,169940.52,false,false
+INV-2026-0037,Duff Beverages Ltd.,GB,Bergkristall Maschinenbau GmbH,DE,2026-02-16,2026-04-17,EUR,51907.50,0.20,10381.50,0.00,62289.00,false,false
+INV-2026-0038,Weyland-Yutani Europe S.A.,FR,Instituto Meridiano Tecnológico S.L.,ES,2026-02-14,2026-02-28,EUR,318381.50,0.20,63676.30,15919.08,362477.33,false,true
+INV-2026-0039,Massive Dynamic Europe Ltd,GB,Groupe Industriel Dufresne S.A.,FR,2026-01-15,2026-02-14,EUR,24328.80,0.20,4865.76,0.00,29194.56,false,false
+INV-2026-0040,Sterling Cooper Draper Pryce,GB,Société Continentale de Logistique S.A.,FR,2026-02-25,2026-02-25,EUR,408392.80,0.20,81678.56,0.00,499872.79,false,true
+INV-2026-0041,Umbrella Corporation Europe AG,CH,Mittelstand Digital Solutions GmbH,DE,2026-02-25,2026-02-25,EUR,132520.60,0.20,26504.12,0.00,154253.98,false,true
+INV-2026-0042,The Daily Planet,GB,Mittelstand Digital Solutions GmbH,DE,2026-04-12,2026-05-12,EUR,83301.70,0.20,16660.34,2082.54,97879.50,false,true
+INV-2026-0043,Wonka Industries AG,CH,Caledonian Moor Pension Management Ltd,GB,2026-04-15,2026-04-29,EUR,539198.10,0.20,107839.62,0.00,647037.72,false,false
+INV-2026-0044,Nakatomi Trading Corporation,GB,Benelux Windmill Automation B.V.,NL,2026-02-04,2026-02-04,EUR,118167.90,,18749.41,8863.34,128063.97,false,true
+INV-2026-0045,Tyrell Corporation Europe S.à r.l.,FR,Benelux Windmill Automation B.V.,NL,2026-02-20,2026-03-22,EUR,342768.30,0.20,68553.66,0.00,398982.30,false,true
+INV-2026-0046,Praxis Consulting Group AG,AT,Benelux Windmill Automation B.V.,NL,2026-02-13,2026-03-15,EUR,371926.70,0.20,74385.34,0.00,446312.04,false,true
+INV-2026-0047,Bluth Development Company LLC,GB,Bergkristall Maschinenbau GmbH,DE,2026-02-26,2026-02-26,EUR,116556.90,0.20,23310.38,0.00,139862.28,false,false
+INV-2026-0048,Dunder Mifflin Europe GmbH,DE,Caledonian Moor Pension Management Ltd,GB,2026-01-11,2026-01-11,EUR,62004.60,0.20,12400.92,4340.32,70065.20,false,true
+INV-2026-0049,Cyberdyne Systems Austria GmbH,AT,Helvetica Technische Beratung AG,CH,2026-03-14,2026-04-13,EUR,5575.00,0.20,1115.00,278.75,6411.25,false,false
+INV-2026-0050,Sabre International GmbH,AT,Mittelstand Digital Solutions GmbH,DE,2026-01-23,2026-02-22,EUR,155726.00,0.20,31145.20,0.00,186871.20,false,false
