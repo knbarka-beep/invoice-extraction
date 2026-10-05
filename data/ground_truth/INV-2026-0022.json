@@ -1,0 +1,90 @@
+{
+  "invoice_id": "INV-2026-0022",
+  "vendor": "Umbrella Corporation Europe AG",
+  "vendor_country": "CH",
+  "vendor_address": {
+    "street": "rue du Lac-Caché 42",
+    "postal_code": "1204",
+    "city": "Genève"
+  },
+  "recipient": "Instituto Meridiano Tecnológico S.L.",
+  "recipient_country": "ES",
+  "recipient_address": {
+    "street": "Passeig del Carmel Amagat 91",
+    "postal_code": "08008",
+    "city": "Barcelona"
+  },
+  "date": "2026-04-08",
+  "due_date": "2026-06-07",
+  "line_items": [
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": 1,
+      "unit_price": "41070.10",
+      "vat_rate": "0.20",
+      "amount": "41070.10"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed since)",
+      "quantity": 50,
+      "unit_price": "189.30",
+      "vat_rate": "0.20",
+      "amount": "9465.00"
+    },
+    {
+      "description": "Annual subscription — enterprise tier (unused features included)",
+      "quantity": 5,
+      "unit_price": "1093.30",
+      "vat_rate": "0.20",
+      "amount": "5466.50"
+    },
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": 10,
+      "unit_price": "203.60",
+      "vat_rate": "0.20",
+      "amount": "2036.00"
+    },
+    {
+      "description": "Incident response (post-mortem deliverable pending)",
+      "quantity": 1,
+      "unit_price": "7518.50",
+      "vat_rate": "0.20",
+      "amount": "7518.50"
+    },
+    {
+      "description": "Penetration testing — scope per SOW 2026-03",
+      "quantity": 4,
+      "unit_price": "29751.30",
+      "vat_rate": "0.20",
+      "amount": "119005.20"
+    }
+  ],
+  "subtotal": "184561.30",
+  "vat_rate": "0.20",
+  "vat_amount": "36912.26",
+  "discount": {
+    "type": "percentage",
+    "value": "0.075",
+    "applied_to": "subtotal",
+    "description": "adjustment per framework agreement ref. FA-2020-779",
+    "conditional": false
+  },
+  "discount_amount": "13842.10",
+  "total": "207631.46",
+  "currency": "EUR",
+  "payment_terms": "Net 60 days",
+  "bank_details": "UBS | IBAN: CH87 0969 9010 2475 8331 8 | BIC: UBSWCHZH80A",
+  "variants": {
+    "vat_variant": "implicit_rate_stated",
+    "discount_variant": "obfuscated",
+    "number_format": "english",
+    "layout": "mixed",
+    "consistency": "correct",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "184561.30",
+  "rendered_total": "207631.46",
+  "error_note": null,
+  "is_credit_note": false
+}

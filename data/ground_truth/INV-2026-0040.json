@@ -1,0 +1,77 @@
+{
+  "invoice_id": "INV-2026-0040",
+  "vendor": "Sterling Cooper Draper Pryce",
+  "vendor_country": "GB",
+  "vendor_address": {
+    "street": "7 Merrowdale Lane",
+    "postal_code": "EC2V 5AQ",
+    "city": "London"
+  },
+  "recipient": "Société Continentale de Logistique S.A.",
+  "recipient_country": "FR",
+  "recipient_address": {
+    "street": "47 rue des Lilas Perdus",
+    "postal_code": "75008",
+    "city": "Paris"
+  },
+  "date": "2026-02-25",
+  "due_date": "2026-02-25",
+  "line_items": [
+    {
+      "description": "External reviewer honorarium",
+      "quantity": 3,
+      "unit_price": "14664.50",
+      "vat_rate": "0.20",
+      "amount": "43993.50"
+    },
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": 4,
+      "unit_price": "43015.30",
+      "vat_rate": "0.20",
+      "amount": "172061.20"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": 4,
+      "unit_price": "167.90",
+      "vat_rate": "0.20",
+      "amount": "671.60"
+    },
+    {
+      "description": "Photocopier toner (see framework agreement)",
+      "quantity": 4,
+      "unit_price": "42014.60",
+      "vat_rate": "0.20",
+      "amount": "168058.40"
+    },
+    {
+      "description": "Professional indemnity insurance — pro rata",
+      "quantity": 1,
+      "unit_price": "23608.10",
+      "vat_rate": "0.20",
+      "amount": "23608.10"
+    }
+  ],
+  "subtotal": "408392.80",
+  "vat_rate": "0.20",
+  "vat_amount": "81678.56",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "490071.36",
+  "currency": "EUR",
+  "payment_terms": "Due upon receipt",
+  "bank_details": "HSBC UK | IBAN: GB66 4579 3810 0589 5047 59 | BIC: HBUKGB4BXXX",
+  "variants": {
+    "vat_variant": "explicit_included",
+    "discount_variant": "none",
+    "number_format": "german",
+    "layout": "table",
+    "consistency": "total_error",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "408392.80",
+  "rendered_total": "499872.79",
+  "error_note": "Displayed total 499872.79 differs from true total 490071.36 by +9801.43 (+2.00%).",
+  "is_credit_note": false
+}

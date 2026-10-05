@@ -1,0 +1,63 @@
+{
+  "invoice_id": "INV-2026-0047",
+  "vendor": "Bluth Development Company LLC",
+  "vendor_country": "GB",
+  "vendor_address": {
+    "street": "25 Greywell Close",
+    "postal_code": "EC2R 6AA",
+    "city": "London"
+  },
+  "recipient": "Bergkristall Maschinenbau GmbH",
+  "recipient_country": "DE",
+  "recipient_address": {
+    "street": "Haselgrundstraße 78",
+    "postal_code": "10115",
+    "city": "Berlin"
+  },
+  "date": "2026-02-26",
+  "due_date": "2026-02-26",
+  "line_items": [
+    {
+      "description": "Server maintenance — March 2026",
+      "quantity": 100,
+      "unit_price": "328.60",
+      "vat_rate": "0.20",
+      "amount": "32860.00"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": 1,
+      "unit_price": "39789.90",
+      "vat_rate": "0.20",
+      "amount": "39789.90"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": 1,
+      "unit_price": "43902.00",
+      "vat_rate": "0.20",
+      "amount": "43902.00"
+    }
+  ],
+  "subtotal": "116551.90",
+  "vat_rate": "0.20",
+  "vat_amount": "23310.38",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "139862.28",
+  "currency": "EUR",
+  "payment_terms": "Due upon receipt",
+  "bank_details": "HSBC UK | IBAN: GB86 9604 8708 9703 2785 09 | BIC: HBUKGB4BXXX",
+  "variants": {
+    "vat_variant": "implicit_no_rate",
+    "discount_variant": "none",
+    "number_format": "german",
+    "layout": "paragraph",
+    "consistency": "subtotal_error",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "116556.90",
+  "rendered_total": "139862.28",
+  "error_note": "Displayed subtotal 116556.90 differs from true subtotal 116551.90 by +5.00.",
+  "is_credit_note": false
+}

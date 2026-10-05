@@ -1,0 +1,98 @@
+{
+  "invoice_id": "INV-2026-0023",
+  "vendor": "Sterling Cooper Draper Pryce",
+  "vendor_country": "GB",
+  "vendor_address": {
+    "street": "42 Fenfell Rise",
+    "postal_code": "EC1M 3JB",
+    "city": "London"
+  },
+  "recipient": "Baltic Amber Services OÜ",
+  "recipient_country": "EE",
+  "recipient_address": {
+    "street": "Pajumarja tänav 23",
+    "postal_code": "10141",
+    "city": "Tallinn"
+  },
+  "date": "2026-01-03",
+  "due_date": "2026-02-02",
+  "line_items": [
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": 1,
+      "unit_price": "41452.70",
+      "vat_rate": "0.20",
+      "amount": "41452.70"
+    },
+    {
+      "description": "Server maintenance — March 2026",
+      "quantity": 10,
+      "unit_price": "138.60",
+      "vat_rate": "0.20",
+      "amount": "1386.00"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": 1,
+      "unit_price": "24855.60",
+      "vat_rate": "0.20",
+      "amount": "24855.60"
+    },
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": 1,
+      "unit_price": "15152.50",
+      "vat_rate": "0.20",
+      "amount": "15152.50"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": 3,
+      "unit_price": "15943.40",
+      "vat_rate": "0.20",
+      "amount": "47830.20"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": 2,
+      "unit_price": "17083.30",
+      "vat_rate": "0.20",
+      "amount": "34166.60"
+    },
+    {
+      "description": "Emergency weekend support call (45 minutes, felt longer)",
+      "quantity": 1,
+      "unit_price": "21835.70",
+      "vat_rate": "0.20",
+      "amount": "21835.70"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": 10,
+      "unit_price": "1842.80",
+      "vat_rate": "0.20",
+      "amount": "18428.00"
+    }
+  ],
+  "subtotal": "205107.30",
+  "vat_rate": "0.20",
+  "vat_amount": "41021.46",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "246128.76",
+  "currency": "EUR",
+  "payment_terms": "Net 30 days",
+  "bank_details": "Lloyds Bank | IBAN: GB82 1098 6934 0548 1966 20 | BIC: LOYDGB21XXX",
+  "variants": {
+    "vat_variant": "explicit_included",
+    "discount_variant": "none",
+    "number_format": "german",
+    "layout": "table",
+    "consistency": "correct",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "205107.30",
+  "rendered_total": "246128.76",
+  "error_note": null,
+  "is_credit_note": false
+}

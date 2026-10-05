@@ -1,0 +1,76 @@
+{
+  "invoice_id": "INV-2026-0030",
+  "vendor": "ACME Laboratories International S.A.",
+  "vendor_country": "FR",
+  "vendor_address": {
+    "street": "5 cours Magnolia-Sèche",
+    "postal_code": "13100",
+    "city": "Aix-en-Provence"
+  },
+  "recipient": "Helvetica Technische Beratung AG",
+  "recipient_country": "CH",
+  "recipient_address": {
+    "street": "Rebenhangweg 91",
+    "postal_code": "8001",
+    "city": "Zürich"
+  },
+  "date": "2026-02-28",
+  "due_date": "2026-04-29",
+  "line_items": [
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": 2,
+      "unit_price": "16245.80",
+      "vat_rate": "0.20",
+      "amount": "32491.60"
+    },
+    {
+      "description": "Incident response (post-mortem deliverable pending)",
+      "quantity": 10,
+      "unit_price": "1199.30",
+      "vat_rate": "0.20",
+      "amount": "11993.00"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": 20,
+      "unit_price": "435.50",
+      "vat_rate": "0.20",
+      "amount": "8710.00"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": 50,
+      "unit_price": "427.60",
+      "vat_rate": "0.20",
+      "amount": "21380.00"
+    }
+  ],
+  "subtotal": "74574.60",
+  "vat_rate": "0.20",
+  "vat_amount": "14914.92",
+  "discount": {
+    "type": "percentage",
+    "value": "0.075",
+    "applied_to": "subtotal",
+    "description": "adjustment per framework agreement ref. FA-2024-720",
+    "conditional": false
+  },
+  "discount_amount": "5593.10",
+  "total": "83896.42",
+  "currency": "EUR",
+  "payment_terms": "Net 60 days",
+  "bank_details": "Société Générale | IBAN: FR14 2424 4534 5683 2832 5650 001 | BIC: SOGEFRPPXXX",
+  "variants": {
+    "vat_variant": "explicit_excluded",
+    "discount_variant": "obfuscated",
+    "number_format": "swiss",
+    "layout": "mixed",
+    "consistency": "total_error",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "74574.60",
+  "rendered_total": "82218.49",
+  "error_note": "Displayed total 82218.49 differs from true total 83896.42 by -1677.93 (-2.00%).",
+  "is_credit_note": false
+}

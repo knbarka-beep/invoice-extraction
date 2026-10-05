@@ -1,0 +1,10 @@
+invoice_id,field,expected,got,vat_variant,discount_variant,number_format,layout,consistency,edge_case
+INV-2026-0015,subtotal,133275.50,159928.60,explicit_included,none,german,mixed,subtotal_error,none
+INV-2026-0015,vat_rate,0.20,,explicit_included,none,german,mixed,subtotal_error,none
+INV-2026-0015,vat_amount,26653.10,,explicit_included,none,german,mixed,subtotal_error,none
+INV-2026-0029,subtotal,7398.00,8877.60,explicit_included,none,swiss,mixed,correct,none
+INV-2026-0029,vat_rate,0.20,,explicit_included,none,swiss,mixed,correct,none
+INV-2026-0029,vat_amount,1479.60,,explicit_included,none,swiss,mixed,correct,none
+INV-2026-0034,subtotal,361675.10,434010.12,explicit_included,none,swiss,mixed,correct,none
+INV-2026-0034,vat_rate,0.20,,explicit_included,none,swiss,mixed,correct,none
+INV-2026-0034,vat_amount,72335.02,,explicit_included,none,swiss,mixed,correct,none

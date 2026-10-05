@@ -1,0 +1,77 @@
+{
+  "invoice_id": "INV-2026-0017",
+  "vendor": "Wonka Industries AG",
+  "vendor_country": "CH",
+  "vendor_address": {
+    "street": "rue du Lac-Caché 42",
+    "postal_code": "1204",
+    "city": "Genève"
+  },
+  "recipient": "Mittelstand Digital Solutions GmbH",
+  "recipient_country": "DE",
+  "recipient_address": {
+    "street": "Beispielgasse 34",
+    "postal_code": "80331",
+    "city": "München"
+  },
+  "date": "2026-04-07",
+  "due_date": "2026-04-21",
+  "line_items": [
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": 5,
+      "unit_price": "1940.80",
+      "vat_rate": "0.20",
+      "amount": "9704.00"
+    },
+    {
+      "description": "SEO audit (Q1 2026)",
+      "quantity": 1,
+      "unit_price": "27875.50",
+      "vat_rate": "0.20",
+      "amount": "27875.50"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": 10,
+      "unit_price": "1310.30",
+      "vat_rate": "0.20",
+      "amount": "13103.00"
+    },
+    {
+      "description": "Architecture review (whiteboarding session)",
+      "quantity": 1,
+      "unit_price": "46564.00",
+      "vat_rate": "0.20",
+      "amount": "46564.00"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": 1,
+      "unit_price": "47659.90",
+      "vat_rate": "0.20",
+      "amount": "47659.90"
+    }
+  ],
+  "subtotal": "144906.40",
+  "vat_rate": "0.20",
+  "vat_amount": "28981.28",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "173887.68",
+  "currency": "EUR",
+  "payment_terms": "Payable within 14 days",
+  "bank_details": "Raiffeisen Schweiz | IBAN: CH08 5652 7627 8017 0604 8 | BIC: RAIFCH22XXX",
+  "variants": {
+    "vat_variant": "implicit_rate_stated",
+    "discount_variant": "none",
+    "number_format": "swiss",
+    "layout": "mixed",
+    "consistency": "correct",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "144906.40",
+  "rendered_total": "173887.68",
+  "error_note": null,
+  "is_credit_note": false
+}

@@ -1,0 +1,84 @@
+{
+  "invoice_id": "INV-2026-0015",
+  "vendor": "Dunder Mifflin Europe GmbH",
+  "vendor_country": "DE",
+  "vendor_address": {
+    "street": "Beispielgasse 34",
+    "postal_code": "80331",
+    "city": "München"
+  },
+  "recipient": "Rheintal Infrastruktur Holding AG",
+  "recipient_country": "AT",
+  "recipient_address": {
+    "street": "Nebelkaiserweg 128",
+    "postal_code": "1070",
+    "city": "Wien"
+  },
+  "date": "2026-01-04",
+  "due_date": "2026-03-05",
+  "line_items": [
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": 1,
+      "unit_price": "30005.60",
+      "vat_rate": "0.20",
+      "amount": "30005.60"
+    },
+    {
+      "description": "Due-diligence memorandum — Project Thornbury",
+      "quantity": 1,
+      "unit_price": "44823.30",
+      "vat_rate": "0.20",
+      "amount": "44823.30"
+    },
+    {
+      "description": "Strategic advisory — Q1 2026 (PowerPoints not included)",
+      "quantity": 1,
+      "unit_price": "24924.90",
+      "vat_rate": "0.20",
+      "amount": "24924.90"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": 1,
+      "unit_price": "6573.80",
+      "vat_rate": "0.20",
+      "amount": "6573.80"
+    },
+    {
+      "description": "Regulatory filing — Companies House",
+      "quantity": 1,
+      "unit_price": "6957.90",
+      "vat_rate": "0.20",
+      "amount": "6957.90"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": 50,
+      "unit_price": "399.60",
+      "vat_rate": "0.20",
+      "amount": "19980.00"
+    }
+  ],
+  "subtotal": "133265.50",
+  "vat_rate": "0.20",
+  "vat_amount": "26653.10",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "159918.60",
+  "currency": "EUR",
+  "payment_terms": "Net 60 days",
+  "bank_details": "Deutsche Bank | IBAN: DE68 9865 3353 7145 1751 60 | BIC: DEUTDEFFXXX",
+  "variants": {
+    "vat_variant": "explicit_included",
+    "discount_variant": "none",
+    "number_format": "german",
+    "layout": "mixed",
+    "consistency": "subtotal_error",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "133275.50",
+  "rendered_total": "159918.60",
+  "error_note": "Displayed subtotal 133275.50 differs from true subtotal 133265.50 by +10.00.",
+  "is_credit_note": false
+}

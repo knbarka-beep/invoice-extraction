@@ -1,0 +1,70 @@
+{
+  "invoice_id": "INV-2026-0036",
+  "vendor": "Nakatomi Trading Corporation",
+  "vendor_country": "GB",
+  "vendor_address": {
+    "street": "19 Whitcomb-Stead Mews",
+    "postal_code": "E1 6BG",
+    "city": "London"
+  },
+  "recipient": "Caledonian Moor Pension Management Ltd",
+  "recipient_country": "GB",
+  "recipient_address": {
+    "street": "91 Gussetry Chambers",
+    "postal_code": "WC2B 6AA",
+    "city": "London"
+  },
+  "date": "2026-02-22",
+  "due_date": "2026-04-23",
+  "line_items": [
+    {
+      "description": "Backup verification (annual)",
+      "quantity": 20,
+      "unit_price": "438.10",
+      "vat_rate": "0.20",
+      "amount": "8762.00"
+    },
+    {
+      "description": "External reviewer honorarium",
+      "quantity": 3,
+      "unit_price": "34367.70",
+      "vat_rate": "0.20",
+      "amount": "103103.10"
+    },
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": 1,
+      "unit_price": "15071.00",
+      "vat_rate": "0.20",
+      "amount": "15071.00"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed since)",
+      "quantity": 10,
+      "unit_price": "1468.10",
+      "vat_rate": "0.20",
+      "amount": "14681.00"
+    }
+  ],
+  "subtotal": "141617.10",
+  "vat_rate": "0.20",
+  "vat_amount": "28323.42",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "169940.52",
+  "currency": "EUR",
+  "payment_terms": "Net 60 days",
+  "bank_details": "Lloyds Bank | IBAN: GB26 5645 7098 8902 6936 79 | BIC: LOYDGB21XXX",
+  "variants": {
+    "vat_variant": "implicit_no_rate",
+    "discount_variant": "none",
+    "number_format": "english",
+    "layout": "mixed",
+    "consistency": "correct",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "141617.10",
+  "rendered_total": "169940.52",
+  "error_note": null,
+  "is_credit_note": false
+}

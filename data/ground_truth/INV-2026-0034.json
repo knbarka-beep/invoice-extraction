@@ -1,0 +1,70 @@
+{
+  "invoice_id": "INV-2026-0034",
+  "vendor": "Duff Beverages Ltd.",
+  "vendor_country": "GB",
+  "vendor_address": {
+    "street": "91 Gussetry Chambers",
+    "postal_code": "WC2B 6AA",
+    "city": "London"
+  },
+  "recipient": "Nordic Lighthouse Infrastructure AS",
+  "recipient_country": "NO",
+  "recipient_address": {
+    "street": "Fjordlundveien 12",
+    "postal_code": "0154",
+    "city": "Oslo"
+  },
+  "date": "2026-01-07",
+  "due_date": "2026-01-21",
+  "line_items": [
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": 1,
+      "unit_price": "34589.70",
+      "vat_rate": "0.20",
+      "amount": "34589.70"
+    },
+    {
+      "description": "Photocopier toner (see framework agreement)",
+      "quantity": 100,
+      "unit_price": "268.80",
+      "vat_rate": "0.20",
+      "amount": "26880.00"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": 4,
+      "unit_price": "46752.50",
+      "vat_rate": "0.20",
+      "amount": "187010.00"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": 3,
+      "unit_price": "37731.80",
+      "vat_rate": "0.20",
+      "amount": "113195.40"
+    }
+  ],
+  "subtotal": "361675.10",
+  "vat_rate": "0.20",
+  "vat_amount": "72335.02",
+  "discount": null,
+  "discount_amount": "0.00",
+  "total": "434010.12",
+  "currency": "EUR",
+  "payment_terms": "Payable within 14 days",
+  "bank_details": "Barclays | IBAN: GB03 0671 4606 3958 7528 22 | BIC: BARCGB22XXX",
+  "variants": {
+    "vat_variant": "explicit_included",
+    "discount_variant": "none",
+    "number_format": "swiss",
+    "layout": "mixed",
+    "consistency": "correct",
+    "edge_case": "none"
+  },
+  "rendered_subtotal": "361675.10",
+  "rendered_total": "434010.12",
+  "error_note": null,
+  "is_credit_note": false
+}
