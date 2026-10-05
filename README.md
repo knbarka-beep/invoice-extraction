@@ -25,6 +25,7 @@ py evaluate.py outputs/method1_rules.csv # writes results/method1_eval.md, resul
 py -m methods.method2_gemini             # needs GEMINI_API_KEY=... in .env
 py -m methods.method3_claude             # needs the `claude` CLI, logged in
 py -m methods.method4_hybrid             # needs GEMINI_API_KEY=... in .env
+py -m pytest                             # unit test for the method 4 reconciliation check
 ```
 
 Methods 2 and 3 share one prompt and run loop (`methods/llm_common.py`) and read the same pdfplumber text as method 1. Each writes `outputs/<method>.csv` and a per-invoice token log `results/<method>_usage.csv`. A failed call leaves an empty row with the error in the usage log; rerunning retries only the failed or missing invoices.
@@ -44,4 +45,4 @@ All methods write the same CSV, one row per invoice, defined in `schema.py`:
 
 `evaluate.py` compares a method CSV field by field with the ground truth: `subtotal`/`total` against `rendered_subtotal`/`rendered_total`, `arithmetic_flag` against `variants.consistency != "correct"`, amounts within 0.01. It reports accuracy per field and per value of each `variants` key.
 
-The four methods are compared in `results/comparison.md`.
+The four methods are compared in `results/comparison.md`; error types per method are in `results/error_types.md`.

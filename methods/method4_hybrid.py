@@ -46,10 +46,6 @@ Invoice text:
 """
 
 
-load_dotenv(ROOT / ".env", encoding="utf-8-sig")  # utf-8-sig: the file may start with a BOM
-client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-
-
 def parse_amount(s):
     """Printed amount -> Decimal. The decimal separator is the last . or ,
     followed by exactly two digits; everything else (' . , space) groups thousands."""
@@ -66,6 +62,18 @@ def parse_amount(s):
 def country(s):
     s = (s or "").strip()
     return COUNTRIES.get(s.lower()) or (s.upper() if len(s) == 2 else None)
+
+
+def reconcile_rate(rate, vat, subtotal):
+    """A transcribed rate must agree with VAT amount / net subtotal. If it is off by
+    more than 0.005 (e.g. a discount percentage transcribed as a VAT rate), trust the
+    amounts. Returns (rate, override note or None)."""
+    if rate is None or vat is None or not subtotal:
+        return rate, None
+    ratio = (vat / subtotal).quantize(CENT, ROUND_HALF_UP)
+    if abs(rate - vat / subtotal) <= Decimal("0.005"):
+        return rate, None
+    return ratio, f"{rate:.2f} -> {ratio:.2f}"
 
 
 def build_row(reply):
@@ -97,14 +105,7 @@ def build_row(reply):
     elif rate is None and not rates and vat is not None and subtotal:
         rate = (vat / subtotal).quantize(CENT, ROUND_HALF_UP)  # rate not printed: derive it
 
-    # Reconciliation: a transcribed rate must agree with VAT amount / net subtotal.
-    # If it does not (e.g. a discount percentage transcribed as a VAT rate), trust the amounts.
-    override = None
-    if rate is not None and vat is not None and subtotal:
-        ratio = vat / subtotal
-        if abs(rate - ratio) > Decimal("0.005"):
-            override = f"{rate:.2f} -> {ratio:.2f}"
-            rate = ratio.quantize(CENT, ROUND_HALF_UP)
+    rate, override = reconcile_rate(rate, vat, subtotal)
 
     flag = False
     if printed_subtotal is not None:
@@ -145,6 +146,8 @@ def call(prompt):
 
 
 if __name__ == "__main__":
+    load_dotenv(ROOT / ".env", encoding="utf-8-sig")  # utf-8-sig: the file may start with a BOM
+    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
     assert parse_amount("1.234,56") == parse_amount("1'234.56 EUR") == parse_amount("EUR 1,234.56.") == Decimal("1234.56")
     assert parse_amount("-EUR 645.94") == Decimal("-645.94") and parse_amount("1.234") == Decimal("1234")
     assert parse_amount("EUR -66,351.10") == Decimal("-66351.10") and parse_amount(None) is None
