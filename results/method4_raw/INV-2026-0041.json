@@ -1,0 +1,59 @@
+{
+  "invoice_id": "INV-2026-0041",
+  "vendor": "Umbrella Corporation Europe AG",
+  "vendor_country": "Switzerland",
+  "recipient": "Mittelstand Digital Solutions GmbH",
+  "recipient_country": "Germany",
+  "date": "25 February 2026",
+  "due_date": "25 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Emergency weekend support call (45 minutes, felt longer)",
+      "quantity": "10",
+      "unit_price": "2'387.04",
+      "amount": "23'870.40"
+    },
+    {
+      "description": "Strategic advisory — Q1 2026 (PowerPoints not included)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "38'042.04"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed since)",
+      "quantity": "20",
+      "unit_price": "557.52",
+      "amount": "11'150.40"
+    },
+    {
+      "description": "Penetration testing — scope per SOW 2026-03",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "35'484.72"
+    },
+    {
+      "description": "Translation services (EN « DE, 12k words)",
+      "quantity": "50",
+      "unit_price": "300.24",
+      "amount": "15'012.00"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "35'465.16"
+    }
+  ],
+  "subtotal": "159'024.72",
+  "subtotal_includes_vat": true,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "154'253.98",
+  "credit_note_wording": null
+}

@@ -1,0 +1,71 @@
+{
+  "invoice_id": "INV-2026-0038",
+  "vendor": "Weyland-Yutani Europe S.A.",
+  "vendor_country": "France",
+  "recipient": "Instituto Meridiano Tecnológico S.L.",
+  "recipient_country": "Spain",
+  "date": "14 February 2026",
+  "due_date": "28 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Regulatory filing — Companies House",
+      "quantity": "10",
+      "unit_price": "321.70",
+      "amount": "3'217.00"
+    },
+    {
+      "description": "Photocopier toner (see framework agreement)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "45'552.40"
+    },
+    {
+      "description": "Translation services (EN « DE, 12k words)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "24'651.50"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "16'860.80"
+    },
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "2",
+      "unit_price": "45'082.40",
+      "amount": "90'164.80"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "10",
+      "unit_price": "1'291.70",
+      "amount": "12'917.00"
+    },
+    {
+      "description": "Documentation cleanup (Sisyphean endeavour)",
+      "quantity": "4",
+      "unit_price": "29'732.20",
+      "amount": "118'928.80"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "6'089.20"
+    }
+  ],
+  "subtotal": "318'381.50",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "63'676.30"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-15'919.08",
+  "discount_wording": "5% early payment discount",
+  "total": "362'477.33",
+  "credit_note_wording": null
+}

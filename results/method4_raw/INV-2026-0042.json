@@ -1,0 +1,49 @@
+{
+  "invoice_id": "INV-2026-0042",
+  "vendor": "The Daily Planet",
+  "vendor_country": "United Kingdom",
+  "recipient": "Mittelstand Digital Solutions GmbH",
+  "recipient_country": "Germany",
+  "date": "12 April 2026",
+  "due_date": "12 May 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Annual subscription — enterprise tier (unused features included)",
+      "quantity": "5",
+      "unit_price": "676,80",
+      "amount": "3.384,00"
+    },
+    {
+      "description": "For Travel expenses (London–Vienna)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "34.559,30"
+    },
+    {
+      "description": "External reviewer honorarium",
+      "quantity": "10",
+      "unit_price": "829,50",
+      "amount": "8.295,00"
+    },
+    {
+      "description": "For Consulting hours — Associate",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "37.063,40"
+    }
+  ],
+  "subtotal": "83.301,70",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "16.660,34"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-2.082,54",
+  "discount_wording": "adjustment per framework agreement ref. FA-2021-895 (-2.5%)",
+  "total": "97.879,50",
+  "credit_note_wording": null
+}

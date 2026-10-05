@@ -1,0 +1,61 @@
+{
+  "invoice_id": "INV-2026-0008",
+  "vendor": "Los Pollos Hermanos Europe LLC",
+  "vendor_country": "United Kingdom",
+  "recipient": "Rheintal Infrastruktur Holding AG",
+  "recipient_country": "Austria",
+  "date": "13 March 2026",
+  "due_date": "12 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Penetration testing — scope per SOW 2026-03",
+      "quantity": "1",
+      "unit_price": "24.420,90",
+      "amount": "24.420,90"
+    },
+    {
+      "description": "Annual subscription — enterprise tier (unused features included)",
+      "quantity": "1",
+      "unit_price": "33.326,80",
+      "amount": "33.326,80"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "4",
+      "unit_price": "11.533,50",
+      "amount": "46.134,00"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": "20",
+      "unit_price": "214,70",
+      "amount": "4.294,00"
+    },
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": "3",
+      "unit_price": "12.873,50",
+      "amount": "38.620,50"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "1",
+      "unit_price": "20.864,30",
+      "amount": "20.864,30"
+    }
+  ],
+  "subtotal": "167.660,50",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "33.532,10"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "201.192,60",
+  "credit_note_wording": null
+}

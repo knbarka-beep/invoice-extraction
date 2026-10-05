@@ -1,0 +1,49 @@
+{
+  "invoice_id": "INV-2026-0030",
+  "vendor": "ACME Laboratories International S.A.",
+  "vendor_country": "France",
+  "recipient": "Helvetica Technische Beratung AG",
+  "recipient_country": "Switzerland",
+  "date": "28 February 2026",
+  "due_date": "29 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "2",
+      "unit_price": "16'245.80",
+      "amount": "32'491.60"
+    },
+    {
+      "description": "Incident response (post-mortem deliverable pending)",
+      "quantity": "10",
+      "unit_price": "1'199.30",
+      "amount": "11'993.00"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "20",
+      "unit_price": "435.50",
+      "amount": "8'710.00"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "50",
+      "unit_price": "427.60",
+      "amount": "21'380.00"
+    }
+  ],
+  "subtotal": "74'574.60",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "14'914.92"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "5'593.10",
+  "discount_wording": "adjustment per framework agreement ref. FA-2024-720: -7.5%",
+  "total": "82'218.49",
+  "credit_note_wording": null
+}

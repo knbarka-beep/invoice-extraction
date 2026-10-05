@@ -1,0 +1,67 @@
+{
+  "invoice_id": "INV-2026-0010",
+  "vendor": "Prestige Worldwide Ltd",
+  "vendor_country": "United Kingdom",
+  "recipient": "Donaustadt Digitalisierung GmbH",
+  "recipient_country": "Austria",
+  "date": "25 March 2026",
+  "due_date": "24 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Emergency weekend support call (45 minutes, felt longer)",
+      "quantity": "10",
+      "unit_price": "123,20",
+      "amount": "1.232,00"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed since)",
+      "quantity": "1",
+      "unit_price": "46.465,00",
+      "amount": "46.465,00"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "3",
+      "unit_price": "19.670,30",
+      "amount": "59.010,90"
+    },
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "1",
+      "unit_price": "22.360,50",
+      "amount": "22.360,50"
+    },
+    {
+      "description": "Documentation cleanup (Sisyphean endeavour)",
+      "quantity": "2",
+      "unit_price": "23.033,10",
+      "amount": "46.066,20"
+    },
+    {
+      "description": "External reviewer honorarium",
+      "quantity": "4",
+      "unit_price": "4.689,80",
+      "amount": "18.759,20"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": "1",
+      "unit_price": "594,60",
+      "amount": "594,60"
+    }
+  ],
+  "subtotal": "194.488,40",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "38.897,68"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-3.889,77",
+  "discount_wording": "2% early payment discount",
+  "total": "229.496,31",
+  "credit_note_wording": null
+}

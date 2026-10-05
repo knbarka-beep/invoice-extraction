@@ -1,0 +1,55 @@
+{
+  "invoice_id": "INV-2026-0026",
+  "vendor": "Hooli Enterprise Solutions GmbH",
+  "vendor_country": "Germany",
+  "recipient": "Benelux Windmill Automation B.V.",
+  "recipient_country": "Netherlands",
+  "date": "6 February 2026",
+  "due_date": "8 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "2",
+      "unit_price": "7.817,50",
+      "amount": "15.635,00"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "4",
+      "unit_price": "23.332,10",
+      "amount": "93.328,40"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": "3",
+      "unit_price": "17.856,60",
+      "amount": "53.569,80"
+    },
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "2",
+      "unit_price": "44.296,60",
+      "amount": "88.593,20"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "3",
+      "unit_price": "29.914,10",
+      "amount": "89.742,30"
+    }
+  ],
+  "subtotal": "340.868,70",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "68.173,74"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-17.043,44",
+  "discount_wording": "5% early payment discount",
+  "total": "384.159,02",
+  "credit_note_wording": null
+}

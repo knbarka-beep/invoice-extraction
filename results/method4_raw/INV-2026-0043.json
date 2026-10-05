@@ -1,0 +1,73 @@
+{
+  "invoice_id": "INV-2026-0043",
+  "vendor": "Wonka Industries AG",
+  "vendor_country": "Switzerland",
+  "recipient": "Caledonian Moor Pension Management Ltd",
+  "recipient_country": "United Kingdom",
+  "date": "15 April 2026",
+  "due_date": "29 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Regulatory filing — Companies House",
+      "quantity": "3",
+      "unit_price": "46,484.40",
+      "amount": "139,453.20"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": "4",
+      "unit_price": "29,548.10",
+      "amount": "118,192.40"
+    },
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "46,746.70"
+    },
+    {
+      "description": "Translation services (EN « DE, 12k words)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "20,345.10"
+    },
+    {
+      "description": "Documentation cleanup (Sisyphean endeavour)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "18,305.80"
+    },
+    {
+      "description": "Server colocation fees — rack 14-B",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "7,268.50"
+    },
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "4",
+      "unit_price": "45,031.10",
+      "amount": "180,124.40"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "8,762.00"
+    }
+  ],
+  "subtotal": "539,198.10",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "107,839.62"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "647,037.72",
+  "credit_note_wording": null
+}

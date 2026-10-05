@@ -97,6 +97,15 @@ def build_row(reply):
     elif rate is None and not rates and vat is not None and subtotal:
         rate = (vat / subtotal).quantize(CENT, ROUND_HALF_UP)  # rate not printed: derive it
 
+    # Reconciliation: a transcribed rate must agree with VAT amount / net subtotal.
+    # If it does not (e.g. a discount percentage transcribed as a VAT rate), trust the amounts.
+    override = None
+    if rate is not None and vat is not None and subtotal:
+        ratio = vat / subtotal
+        if abs(rate - ratio) > Decimal("0.005"):
+            override = f"{rate:.2f} -> {ratio:.2f}"
+            rate = ratio.quantize(CENT, ROUND_HALF_UP)
+
     flag = False
     if printed_subtotal is not None:
         if line_sum is not None and abs(line_sum - printed_subtotal) > CENT:
@@ -112,6 +121,7 @@ def build_row(reply):
         "currency": t.get("currency"), "subtotal": subtotal, "vat_rate": rate, "vat_amount": vat,
         "discount_amount": discount, "total": total,
         "is_credit_note": bool(t.get("credit_note_wording")), "arithmetic_flag": flag,
+        "vat_rate_override": override,  # not a schema field: logged in the usage CSV
     }
 
 
@@ -138,4 +148,5 @@ if __name__ == "__main__":
     assert parse_amount("1.234,56") == parse_amount("1'234.56 EUR") == parse_amount("EUR 1,234.56.") == Decimal("1234.56")
     assert parse_amount("-EUR 645.94") == Decimal("-645.94") and parse_amount("1.234") == Decimal("1234")
     assert parse_amount("EUR -66,351.10") == Decimal("-66351.10") and parse_amount(None) is None
-    run("method4_hybrid", call, PROMPT, build_row)
+    run("method4_hybrid", call, PROMPT, build_row,
+        usage_extra=["vat_rate_override"], raw_dir=ROOT / "results" / "method4_raw")

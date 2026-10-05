@@ -1,0 +1,35 @@
+{
+  "invoice_id": "INV-2026-0039",
+  "vendor": "Massive Dynamic Europe Ltd",
+  "vendor_country": "United Kingdom",
+  "recipient": "Groupe Industriel Dufresne S.A.",
+  "recipient_country": "France",
+  "date": "15 January 2026",
+  "due_date": "14 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Translation services (EN « DE, 12k words)",
+      "quantity": "50",
+      "unit_price": "296.90",
+      "amount": "14,845.00"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "9,483.80"
+    }
+  ],
+  "subtotal": "24,328.80",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "4,865.76"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "29,194.56",
+  "credit_note_wording": null
+}

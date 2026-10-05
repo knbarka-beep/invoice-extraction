@@ -1,0 +1,29 @@
+{
+  "invoice_id": "INV-2026-0049",
+  "vendor": "Cyberdyne Systems Austria GmbH",
+  "vendor_country": "Austria",
+  "recipient": "Helvetica Technische Beratung AG",
+  "recipient_country": "Switzerland",
+  "date": "14 March 2026",
+  "due_date": "13 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Backup verification (annual)",
+      "quantity": "10",
+      "unit_price": "557.50",
+      "amount": "5'575.00"
+    }
+  ],
+  "subtotal": "5'575.00",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "1'115.00"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-278.75",
+  "discount_wording": "adjustment per framework agreement ref. FA-2025-608 (-5%)",
+  "total": "6'411.25",
+  "credit_note_wording": null
+}

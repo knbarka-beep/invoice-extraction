@@ -1,0 +1,57 @@
+{
+  "invoice_id": "INV-2026-0015",
+  "vendor": "Dunder Mifflin Europe GmbH",
+  "vendor_country": "Germany",
+  "recipient": "Rheintal Infrastruktur Holding AG",
+  "recipient_country": "Austria",
+  "date": "4 January 2026",
+  "due_date": "5 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": "1",
+      "unit_price": "36.006,72",
+      "amount": "36.006,72"
+    },
+    {
+      "description": "Due-diligence memorandum — Project Thornbury",
+      "quantity": "1",
+      "unit_price": "53.787,96",
+      "amount": "53.787,96"
+    },
+    {
+      "description": "Strategic advisory — Q1 2026 (PowerPoints not included)",
+      "quantity": "1",
+      "unit_price": "29.909,88",
+      "amount": "29.909,88"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "1",
+      "unit_price": "7.888,56",
+      "amount": "7.888,56"
+    },
+    {
+      "description": "Regulatory filing — Companies House",
+      "quantity": "1",
+      "unit_price": "8.349,48",
+      "amount": "8.349,48"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "50",
+      "unit_price": "479,52",
+      "amount": "23.976,00"
+    }
+  ],
+  "subtotal": "159.928,60",
+  "subtotal_includes_vat": true,
+  "vat_rates": [],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "159.918,60",
+  "credit_note_wording": null
+}

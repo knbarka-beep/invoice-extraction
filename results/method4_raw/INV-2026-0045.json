@@ -1,0 +1,47 @@
+{
+  "invoice_id": "INV-2026-0045",
+  "vendor": "Tyrell Corporation Europe S.à r.l.",
+  "vendor_country": "France",
+  "recipient": "Benelux Windmill Automation B.V.",
+  "recipient_country": "Netherlands",
+  "date": "20 February 2026",
+  "due_date": "22 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Documentation cleanup (Sisyphean endeavour)",
+      "quantity": "3",
+      "unit_price": "46,547.90",
+      "amount": "139,643.70"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "50",
+      "unit_price": "80.30",
+      "amount": "4,015.00"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": "4",
+      "unit_price": "35,489.70",
+      "amount": "141,958.80"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed\nsince)",
+      "quantity": "4",
+      "unit_price": "14,287.70",
+      "amount": "57,150.80"
+    }
+  ],
+  "subtotal": "342,768.30",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "68,553.66"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "398,982.30",
+  "credit_note_wording": null
+}

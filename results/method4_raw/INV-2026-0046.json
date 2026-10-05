@@ -1,0 +1,55 @@
+{
+  "invoice_id": "INV-2026-0046",
+  "vendor": "Praxis Consulting Group AG",
+  "vendor_country": "Austria",
+  "recipient": "Benelux Windmill Automation B.V.",
+  "recipient_country": "Netherlands",
+  "date": "13 February 2026",
+  "due_date": "15 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "3",
+      "unit_price": "28.238,70",
+      "amount": "84.716,10"
+    },
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": "3",
+      "unit_price": "3.615,90",
+      "amount": "10.847,70"
+    },
+    {
+      "description": "Backup verification (annual)",
+      "quantity": "4",
+      "unit_price": "43.202,80",
+      "amount": "172.811,20"
+    },
+    {
+      "description": "Strategic advisory — Q1 2026 (PowerPoints not included)",
+      "quantity": "5",
+      "unit_price": "807,10",
+      "amount": "4.035,50"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "2",
+      "unit_price": "49.758,10",
+      "amount": "99.516,20"
+    }
+  ],
+  "subtotal": "371.926,70",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "74.385,34"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "446.312,04",
+  "credit_note_wording": null
+}

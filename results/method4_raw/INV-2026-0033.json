@@ -1,0 +1,53 @@
+{
+  "invoice_id": "INV-2026-0033",
+  "vendor": "InGen BioSciences S.A.",
+  "vendor_country": "France",
+  "recipient": "Europäische Verwaltungskontor AG",
+  "recipient_country": "Austria",
+  "date": "21 March 2026",
+  "due_date": "4 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": "1",
+      "unit_price": "40.346,52",
+      "amount": "40.346,52"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": "1",
+      "unit_price": "36.763,68",
+      "amount": "36.763,68"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "1",
+      "unit_price": "46.820,76",
+      "amount": "46.820,76"
+    },
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "5",
+      "unit_price": "2.263,56",
+      "amount": "11.317,80"
+    },
+    {
+      "description": "Due-diligence memorandum — Project Thornbury",
+      "quantity": "1",
+      "unit_price": "46.103,28",
+      "amount": "46.103,28"
+    }
+  ],
+  "subtotal": "181.352,04",
+  "subtotal_includes_vat": true,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "181.352,04",
+  "credit_note_wording": null
+}

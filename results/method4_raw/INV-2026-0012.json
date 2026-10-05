@@ -1,0 +1,41 @@
+{
+  "invoice_id": "INV-2026-0012",
+  "vendor": "Tyrell Corporation Europe S.à r.l.",
+  "vendor_country": "France",
+  "recipient": "Baltic Amber Services OÜ",
+  "recipient_country": "Estonia",
+  "date": "22 March 2026",
+  "due_date": "21 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Due-diligence memorandum — Project Thornbury",
+      "quantity": "10",
+      "unit_price": "1.098,50",
+      "amount": "10.985,00"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "1",
+      "unit_price": "31.453,00",
+      "amount": "31.453,00"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "2",
+      "unit_price": "48.289,10",
+      "amount": "96.578,20"
+    }
+  ],
+  "subtotal": "139.016,20",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "27.803,24"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-6.950,81",
+  "discount_wording": "rebate per agreement",
+  "total": "163.066,00",
+  "credit_note_wording": null
+}

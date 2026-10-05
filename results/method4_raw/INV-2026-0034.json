@@ -1,0 +1,45 @@
+{
+  "invoice_id": "INV-2026-0034",
+  "vendor": "Duff Beverages Ltd.",
+  "vendor_country": "United Kingdom",
+  "recipient": "Nordic Lighthouse Infrastructure AS",
+  "recipient_country": "Norway",
+  "date": "7 January 2026",
+  "due_date": "21 January 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "1",
+      "unit_price": "41'507.64",
+      "amount": "41'507.64"
+    },
+    {
+      "description": "Photocopier toner (see framework agreement)",
+      "quantity": "100",
+      "unit_price": "322.56",
+      "amount": "32'256.00"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "4",
+      "unit_price": "56'103.00",
+      "amount": "224'412.00"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "3",
+      "unit_price": "45'278.16",
+      "amount": "135'834.48"
+    }
+  ],
+  "subtotal": "434'010.12",
+  "subtotal_includes_vat": true,
+  "vat_rates": [],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "434'010.12",
+  "credit_note_wording": null
+}

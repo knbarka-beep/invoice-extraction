@@ -1,0 +1,53 @@
+{
+  "invoice_id": "INV-2026-0040",
+  "vendor": "Sterling Cooper Draper Pryce",
+  "vendor_country": "United Kingdom",
+  "recipient": "Société Continentale de Logistique S.A.",
+  "recipient_country": "France",
+  "date": "25 February 2026",
+  "due_date": "25 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "External reviewer honorarium",
+      "quantity": "3",
+      "unit_price": "17.597,40",
+      "amount": "52.792,20"
+    },
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": "4",
+      "unit_price": "51.618,36",
+      "amount": "206.473,44"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": "4",
+      "unit_price": "201,48",
+      "amount": "805,92"
+    },
+    {
+      "description": "Photocopier toner (see framework agreement)",
+      "quantity": "4",
+      "unit_price": "50.417,52",
+      "amount": "201.670,08"
+    },
+    {
+      "description": "Professional indemnity insurance — pro rata",
+      "quantity": "1",
+      "unit_price": "28.329,72",
+      "amount": "28.329,72"
+    }
+  ],
+  "subtotal": "490.071,36",
+  "subtotal_includes_vat": true,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "499.872,79",
+  "credit_note_wording": null
+}

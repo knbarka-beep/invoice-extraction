@@ -1,0 +1,57 @@
+{
+  "invoice_id": "INV-2026-0020",
+  "vendor": "Bluth Development Company LLC",
+  "vendor_country": "United Kingdom",
+  "recipient": "Mittelstand Digital Solutions GmbH",
+  "recipient_country": "Germany",
+  "date": "2 January 2026",
+  "due_date": "16 January 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Travel expenses (Frankfurt–Zürich)",
+      "quantity": "1",
+      "unit_price": "19,961.00",
+      "amount": "19,961.00"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": "5",
+      "unit_price": "793.50",
+      "amount": "3,967.50"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": "4",
+      "unit_price": "37,716.10",
+      "amount": "150,864.40"
+    },
+    {
+      "description": "Server maintenance — March 2026",
+      "quantity": "4",
+      "unit_price": "33,219.10",
+      "amount": "132,876.40"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "1",
+      "unit_price": "12,345.40",
+      "amount": "12,345.40"
+    },
+    {
+      "description": "Annual subscription — enterprise tier (unused features included)",
+      "quantity": "5",
+      "unit_price": "203.10",
+      "amount": "1,015.50"
+    }
+  ],
+  "subtotal": "321,030.20",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [],
+  "reverse_charge_wording": "VAT reverse charge mechanism applies per Article 196 Council Directive 2006/112/EC.",
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "321,030.20",
+  "credit_note_wording": null
+}

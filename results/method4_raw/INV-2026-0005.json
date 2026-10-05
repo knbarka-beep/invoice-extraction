@@ -1,0 +1,31 @@
+{
+  "invoice_id": "INV-2026-0005",
+  "vendor": "Initech Solutions GmbH",
+  "vendor_country": "Germany",
+  "recipient": "Groupe Industriel Dufresne S.A.",
+  "recipient_country": "France",
+  "date": "4 March 2026",
+  "due_date": "18 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "2",
+      "unit_price": "30.201,70",
+      "amount": "60.403,40"
+    }
+  ],
+  "subtotal": "60.403,40",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "12.080,68"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-1.812,10",
+  "discount_wording": "rebate per agreement",
+  "total": "70.671,98",
+  "credit_note_wording": null
+}

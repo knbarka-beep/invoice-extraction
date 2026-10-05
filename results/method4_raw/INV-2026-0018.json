@@ -1,0 +1,71 @@
+{
+  "invoice_id": "INV-2026-0018",
+  "vendor": "Massive Dynamic Europe Ltd",
+  "vendor_country": "United Kingdom",
+  "recipient": "Caledonian Moor Pension Management Ltd",
+  "recipient_country": "United Kingdom",
+  "date": "20 February 2026",
+  "due_date": "22 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Backup verification (annual)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "16,347.12"
+    },
+    {
+      "description": "Travel expenses (Frankfurt–Zürich)",
+      "quantity": "50",
+      "unit_price": "151.92",
+      "amount": "7,596.00"
+    },
+    {
+      "description": "Regulatory filing — Companies House",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "57,686.64"
+    },
+    {
+      "description": "Server colocation fees — rack 14-B",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "42,324.12"
+    },
+    {
+      "description": "Architecture review (whiteboarding session)",
+      "quantity": "50",
+      "unit_price": "364.32",
+      "amount": "18,216.00"
+    },
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "2",
+      "unit_price": "28,629.24",
+      "amount": "57,258.48"
+    },
+    {
+      "description": "Emergency weekend support call (45 minutes, felt longer)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "22,122.72"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "7,915.56"
+    }
+  ],
+  "subtotal": "229,416.64",
+  "subtotal_includes_vat": true,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "229,466.64",
+  "credit_note_wording": null
+}

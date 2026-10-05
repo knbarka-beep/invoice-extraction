@@ -1,0 +1,43 @@
+{
+  "invoice_id": "INV-2026-0048",
+  "vendor": "Dunder Mifflin Europe GmbH",
+  "vendor_country": "Germany",
+  "recipient": "Caledonian Moor Pension Management Ltd",
+  "recipient_country": "United Kingdom",
+  "date": "11 January 2026",
+  "due_date": "11 January 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "External reviewer honorarium",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "29.973,20"
+    },
+    {
+      "description": "SEO audit (Q1 2026)",
+      "quantity": "2",
+      "unit_price": "15.244,70",
+      "amount": "30.489,40"
+    },
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "5",
+      "unit_price": "308,40",
+      "amount": "1.542,00"
+    }
+  ],
+  "subtotal": "62.004,60",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "12.400,92"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-4.340,32",
+  "discount_wording": "rebate per agreement",
+  "total": "70.065,20",
+  "credit_note_wording": null
+}

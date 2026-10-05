@@ -1,0 +1,31 @@
+{
+  "invoice_id": "INV-2026-0025",
+  "vendor": "Praxis Consulting Group AG",
+  "vendor_country": "Austria",
+  "recipient": "Thames Gate Capital Partners LLP",
+  "recipient_country": "United Kingdom",
+  "date": "12 February 2026",
+  "due_date": "26 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "1",
+      "unit_price": "11'303.20",
+      "amount": "11'303.20"
+    }
+  ],
+  "subtotal": "11'303.20",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "2'260.64"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "13'156.92",
+  "credit_note_wording": null
+}

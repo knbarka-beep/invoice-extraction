@@ -1,0 +1,41 @@
+{
+  "invoice_id": "INV-2026-0050",
+  "vendor": "Sabre International GmbH",
+  "vendor_country": "Austria",
+  "recipient": "Mittelstand Digital Solutions GmbH",
+  "recipient_country": "Germany",
+  "date": "23 January 2026",
+  "due_date": "22 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Training materials — onboarding programme",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "40,427.30"
+    },
+    {
+      "description": "Regulatory filing — Companies House",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "28,088.10"
+    },
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": "3",
+      "unit_price": "29,070.20",
+      "amount": "87,210.60"
+    }
+  ],
+  "subtotal": "155,726.00",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "31,145.20"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "186,871.20",
+  "credit_note_wording": null
+}

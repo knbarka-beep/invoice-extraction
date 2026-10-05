@@ -1,0 +1,61 @@
+{
+  "invoice_id": "INV-2026-0022",
+  "vendor": "Umbrella Corporation Europe AG",
+  "vendor_country": "Switzerland",
+  "recipient": "Instituto Meridiano Tecnológico S.L.",
+  "recipient_country": "Spain",
+  "date": "8 April 2026",
+  "due_date": "7 June 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "1",
+      "unit_price": "41,070.10",
+      "amount": "41,070.10"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed since)",
+      "quantity": "50",
+      "unit_price": "189.30",
+      "amount": "9,465.00"
+    },
+    {
+      "description": "Annual subscription — enterprise tier (unused features included)",
+      "quantity": "5",
+      "unit_price": "1,093.30",
+      "amount": "5,466.50"
+    },
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": "10",
+      "unit_price": "203.60",
+      "amount": "2,036.00"
+    },
+    {
+      "description": "Incident response (post-mortem deliverable pending)",
+      "quantity": "1",
+      "unit_price": "7,518.50",
+      "amount": "7,518.50"
+    },
+    {
+      "description": "Penetration testing — scope per SOW 2026-03",
+      "quantity": "4",
+      "unit_price": "29,751.30",
+      "amount": "119,005.20"
+    }
+  ],
+  "subtotal": "184,561.30",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "36,912.26"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "13,842.10",
+  "discount_wording": "adjustment per framework agreement ref. FA-2020-779: -7.5%",
+  "total": "207,631.46",
+  "credit_note_wording": null
+}

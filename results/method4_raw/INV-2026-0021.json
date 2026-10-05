@@ -1,0 +1,55 @@
+{
+  "invoice_id": "INV-2026-0021",
+  "vendor": "Pierce & Pierce Holdings Ltd",
+  "vendor_country": "United Kingdom",
+  "recipient": "Bergkristall Maschinenbau GmbH",
+  "recipient_country": "Germany",
+  "date": "10 January 2026",
+  "due_date": "9 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "10",
+      "unit_price": "430.30",
+      "amount": "4,303.00"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": "3",
+      "unit_price": "37,804.70",
+      "amount": "113,414.10"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "2",
+      "unit_price": "35,657.30",
+      "amount": "71,314.60"
+    },
+    {
+      "description": "Training materials — onboarding programme",
+      "quantity": "1",
+      "unit_price": "23,048.20",
+      "amount": "23,048.20"
+    },
+    {
+      "description": "External reviewer honorarium",
+      "quantity": "1",
+      "unit_price": "47,971.30",
+      "amount": "47,971.30"
+    }
+  ],
+  "subtotal": "260,061.20",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "52,010.24"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "312,061.44",
+  "credit_note_wording": null
+}

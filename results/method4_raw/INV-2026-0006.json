@@ -1,0 +1,35 @@
+{
+  "invoice_id": "INV-2026-0006",
+  "vendor": "Stark Industries Europe Ltd",
+  "vendor_country": "United Kingdom",
+  "recipient": "Benelux Windmill Automation B.V.",
+  "recipient_country": "Netherlands",
+  "date": "5 March 2026",
+  "due_date": "5 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Marketing collateral refresh",
+      "quantity": "1",
+      "unit_price": "6,404.64",
+      "amount": "6,404.64"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "5",
+      "unit_price": "1,819.56",
+      "amount": "9,097.80"
+    }
+  ],
+  "subtotal": "15,507.44",
+  "subtotal_includes_vat": true,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": "-645.94",
+  "discount_wording": "5% early payment discount",
+  "total": "14,856.50",
+  "credit_note_wording": null
+}

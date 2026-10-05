@@ -1,0 +1,35 @@
+{
+  "invoice_id": "INV-2026-0028",
+  "vendor": "Nakatomi Trading Corporation",
+  "vendor_country": "United Kingdom",
+  "recipient": "Caledonian Moor Pension Management Ltd",
+  "recipient_country": "United Kingdom",
+  "date": "9 February 2026",
+  "due_date": "10 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Database optimisation retainer",
+      "quantity": "2",
+      "unit_price": "5'187.20",
+      "amount": "10'374.40"
+    },
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "20",
+      "unit_price": "455.80",
+      "amount": "9'116.00"
+    }
+  ],
+  "subtotal": "19'490.40",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "3'898.08"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "23'388.48",
+  "credit_note_wording": null
+}

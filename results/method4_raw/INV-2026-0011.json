@@ -1,0 +1,31 @@
+{
+  "invoice_id": "INV-2026-0011",
+  "vendor": "Vandelay Industries GmbH",
+  "vendor_country": "Austria",
+  "recipient": "Instituto Meridiano Tecnológico S.L.",
+  "recipient_country": "Spain",
+  "date": "12 February 2026",
+  "due_date": "13 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Server colocation fees — rack 14-B",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "5,797.30"
+    }
+  ],
+  "subtotal": "5,807.30",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "1,159.46"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-289.87",
+  "discount_wording": "rebate per agreement",
+  "total": "6,666.89",
+  "credit_note_wording": null
+}

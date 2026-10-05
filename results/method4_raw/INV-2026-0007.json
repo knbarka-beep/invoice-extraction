@@ -1,0 +1,53 @@
+{
+  "invoice_id": "INV-2026-0007",
+  "vendor": "Stark Industries Europe Ltd",
+  "vendor_country": "United Kingdom",
+  "recipient": "Groupe Industriel Dufresne S.A.",
+  "recipient_country": "France",
+  "date": "9 March 2026",
+  "due_date": "9 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "39.758,60"
+    },
+    {
+      "description": "Backup verification (annual)",
+      "quantity": "100",
+      "unit_price": "128,30",
+      "amount": "12.830,00"
+    },
+    {
+      "description": "Training materials — onboarding programme",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "36.391,50"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "2",
+      "unit_price": "2.738,70",
+      "amount": "5.477,40"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "23.080,60"
+    }
+  ],
+  "subtotal": "117.538,10",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "23.507,62"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-8.815,36",
+  "discount_wording": "adjustment per framework agreement ref. FA-2023-585 (-7.5%)",
+  "total": "132.230,36",
+  "credit_note_wording": null
+}

@@ -1,0 +1,57 @@
+{
+  "invoice_id": "INV-2026-0044",
+  "vendor": "Nakatomi Trading Corporation",
+  "vendor_country": "United Kingdom",
+  "recipient": "Benelux Windmill Automation B.V.",
+  "recipient_country": "Netherlands",
+  "date": "4 February 2026",
+  "due_date": "4 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Data room hosting — February 2026",
+      "quantity": "2",
+      "unit_price": "334.60",
+      "amount": "669.20"
+    },
+    {
+      "description": "Penetration testing — scope per SOW 2026-03",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "46'049.70"
+    },
+    {
+      "description": "Consulting hours — Associate",
+      "quantity": "10",
+      "unit_price": "281.20",
+      "amount": "2'812.00"
+    },
+    {
+      "description": "Training materials — onboarding programme",
+      "quantity": "3",
+      "unit_price": "16'585.80",
+      "amount": "49'757.40"
+    },
+    {
+      "description": "Backup verification (annual)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "18'889.60"
+    }
+  ],
+  "subtotal": "118'167.90",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%",
+    "10%"
+  ],
+  "vat_amounts": [
+    "13'863.24",
+    "4'886.17"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-8'863.34",
+  "discount_wording": "adjustment per framework agreement ref. FA-2021-856 (-7.5%)",
+  "total": "128'063.97",
+  "credit_note_wording": null
+}

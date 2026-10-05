@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-2026-0035",
+  "vendor": "Rekall Incorporated",
+  "vendor_country": "United Kingdom",
+  "recipient": "Europäische Verwaltungskontor AG",
+  "recipient_country": "Austria",
+  "date": "5 March 2026",
+  "due_date": "4 May 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "10",
+      "unit_price": "526,50",
+      "amount": "5.265,00"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "1",
+      "unit_price": "11.364,30",
+      "amount": "11.364,30"
+    }
+  ],
+  "subtotal": "16.679,30",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "3.325,86"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "19.955,16",
+  "credit_note_wording": null
+}

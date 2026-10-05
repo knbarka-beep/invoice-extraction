@@ -1,0 +1,49 @@
+{
+  "invoice_id": "INV-2026-0003",
+  "vendor": "Pearson Hardman",
+  "vendor_country": "United Kingdom",
+  "recipient": "Bergkristall Maschinenbau GmbH",
+  "recipient_country": "Germany",
+  "date": "11 April 2026",
+  "due_date": "11 May 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": "1",
+      "unit_price": "11'402.00",
+      "amount": "11'402.00"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": "100",
+      "unit_price": "368.70",
+      "amount": "36'870.00"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": "1",
+      "unit_price": "24'079.00",
+      "amount": "24'079.00"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "2",
+      "unit_price": "5'082.50",
+      "amount": "10'165.00"
+    }
+  ],
+  "subtotal": "82'516.00",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "16'503.20"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "99'019.20",
+  "credit_note_wording": null
+}

@@ -1,0 +1,55 @@
+{
+  "invoice_id": "INV-2026-0017",
+  "vendor": "Wonka Industries AG",
+  "vendor_country": "Switzerland",
+  "recipient": "Mittelstand Digital Solutions GmbH",
+  "recipient_country": "Germany",
+  "date": "7 April 2026",
+  "due_date": "21 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "5",
+      "unit_price": "1'940.80",
+      "amount": "9'704.00"
+    },
+    {
+      "description": "SEO audit (Q1 2026)",
+      "quantity": "1",
+      "unit_price": "27'875.50",
+      "amount": "27'875.50"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": "10",
+      "unit_price": "1'310.30",
+      "amount": "13'103.00"
+    },
+    {
+      "description": "Architecture review (whiteboarding session)",
+      "quantity": "1",
+      "unit_price": "46'564.00",
+      "amount": "46'564.00"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "1",
+      "unit_price": "47'659.90",
+      "amount": "47'659.90"
+    }
+  ],
+  "subtotal": "144'906.40",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "28'981.28"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "173'887.68",
+  "credit_note_wording": null
+}

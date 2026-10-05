@@ -1,0 +1,49 @@
+{
+  "invoice_id": "INV-2026-0016",
+  "vendor": "Sterling Cooper Draper Pryce",
+  "vendor_country": "United Kingdom",
+  "recipient": "Rheintal Infrastruktur Holding AG",
+  "recipient_country": "Austria",
+  "date": "12 January 2026",
+  "due_date": "11 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "2",
+      "unit_price": "-42'070.90",
+      "amount": "-84'141.80"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "100",
+      "unit_price": "-184.10",
+      "amount": "-18'410.00"
+    },
+    {
+      "description": "Due-diligence memorandum — Project Thornbury",
+      "quantity": "5",
+      "unit_price": "-1'999.40",
+      "amount": "-9'997.00"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "2",
+      "unit_price": "-4'633.60",
+      "amount": "-9'267.20"
+    }
+  ],
+  "subtotal": "-121'816.00",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "-24'363.20"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "-144'717.41",
+  "credit_note_wording": "CREDIT NOTE"
+}

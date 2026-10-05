@@ -1,0 +1,31 @@
+{
+  "invoice_id": "INV-2026-0024",
+  "vendor": "Weyland-Yutani Europe S.A.",
+  "vendor_country": "France",
+  "recipient": "Baltic Amber Services OÜ",
+  "recipient_country": "Estonia",
+  "date": "14 February 2026",
+  "due_date": "16 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Photocopier toner (see framework agreement)",
+      "quantity": "100",
+      "unit_price": "75.90",
+      "amount": "7'590.00"
+    }
+  ],
+  "subtotal": "7'600.00",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "1'518.00"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-759.00",
+  "discount_wording": "Discount (10% early payment discount)",
+  "total": "8'349.00",
+  "credit_note_wording": null
+}

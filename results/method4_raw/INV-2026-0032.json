@@ -1,0 +1,59 @@
+{
+  "invoice_id": "INV-2026-0032",
+  "vendor": "Weyland-Yutani Europe S.A.",
+  "vendor_country": "France",
+  "recipient": "Helvetica Technische Beratung AG",
+  "recipient_country": "Switzerland",
+  "date": "23 March 2026",
+  "due_date": "22 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "SEO audit (Q1 2026)",
+      "quantity": "3",
+      "unit_price": "39.999,30",
+      "amount": "119.997,90"
+    },
+    {
+      "description": "Backup verification (annual)",
+      "quantity": "50",
+      "unit_price": "455,40",
+      "amount": "22.770,00"
+    },
+    {
+      "description": "Documentation cleanup (Sisyphean endeavour)",
+      "quantity": "50",
+      "unit_price": "277,10",
+      "amount": "13.855,00"
+    },
+    {
+      "description": "Translation services (EN « DE, 12k words)",
+      "quantity": "1",
+      "unit_price": "39.578,10",
+      "amount": "39.578,10"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "2",
+      "unit_price": "30.353,10",
+      "amount": "60.706,20"
+    },
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "2",
+      "unit_price": "4.495,10",
+      "amount": "8.990,20"
+    }
+  ],
+  "subtotal": "265.907,40",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "53.179,48"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "18.612,82",
+  "discount_wording": "agreed rebate",
+  "total": "300.464,06",
+  "credit_note_wording": null
+}

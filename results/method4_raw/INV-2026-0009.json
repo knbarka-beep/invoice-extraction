@@ -1,0 +1,49 @@
+{
+  "invoice_id": "INV-2026-0009",
+  "vendor": "Praxis Consulting Group AG",
+  "vendor_country": "Austria",
+  "recipient": "Baltic Amber Services OÜ",
+  "recipient_country": "Estonia",
+  "date": "17 February 2026",
+  "due_date": "19 March 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Server colocation fees — rack 14-B",
+      "quantity": "2",
+      "unit_price": "42'995.20",
+      "amount": "85'990.40"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "1",
+      "unit_price": "1'756.80",
+      "amount": "1'756.80"
+    },
+    {
+      "description": "Hardware procurement — 4 workstations",
+      "quantity": "20",
+      "unit_price": "196.20",
+      "amount": "3'924.00"
+    },
+    {
+      "description": "Annual subscription — enterprise tier (unused features included)",
+      "quantity": "5",
+      "unit_price": "418.00",
+      "amount": "2'090.00"
+    }
+  ],
+  "subtotal": "93'761.20",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "18'752.24"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "112'513.44",
+  "credit_note_wording": null
+}

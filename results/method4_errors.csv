@@ -8,4 +8,3 @@ INV-2026-0029,vat_amount,1479.60,,explicit_included,none,swiss,mixed,correct,non
 INV-2026-0034,subtotal,361675.10,434010.12,explicit_included,none,swiss,mixed,correct,none
 INV-2026-0034,vat_rate,0.20,,explicit_included,none,swiss,mixed,correct,none
 INV-2026-0034,vat_amount,72335.02,,explicit_included,none,swiss,mixed,correct,none
-INV-2026-0038,vat_rate,0.20,0.05,implicit_no_rate,explicit_percentage,swiss,paragraph,total_error,none

@@ -54,11 +54,13 @@ def _read(path):
         return {r["invoice_id"]: r for r in csv.DictReader(f)}
 
 
-def run(method, call, prompt=PROMPT, parse=parse_row):
+def run(method, call, prompt=PROMPT, parse=parse_row, usage_extra=(), raw_dir=None):
     """Run `call` over all invoices, resuming from earlier runs.
 
     call(prompt) -> (reply_text, usage_dict with any of model/input_tokens/output_tokens/cost_usd)
     Invoices with a usage row and no error are skipped; failed ones are retried.
+    usage_extra: keys of the parsed row to log as extra usage columns.
+    raw_dir: if given, each reply's JSON is saved there as <invoice_id>.json.
     """
     out_csv = ROOT / "outputs" / f"{method}.csv"
     usage_csv = ROOT / "results" / f"{method.split('_')[0]}_usage.csv"
@@ -70,7 +72,12 @@ def run(method, call, prompt=PROMPT, parse=parse_row):
         row, u, start = {}, {}, time.time()
         try:
             reply, u = call(prompt + pdf_text(pdf))
+            if raw_dir:
+                raw_dir.mkdir(parents=True, exist_ok=True)
+                m = re.search(r"\{.*\}", reply, re.S)  # drop any markdown fence around the JSON
+                (raw_dir / f"{inv}.json").write_text(m.group() if m else reply, encoding="utf-8")
             row = parse(reply)
+            u.update({k: row.get(k) for k in usage_extra})
         except Exception as e:  # one bad call must not stop the run: empty row, error logged
             u["error"] = f"{type(e).__name__}: {e}"[:300].replace("\n", " ")
         row["invoice_id"] = inv  # keyed by file name so a misread number cannot drop the row
@@ -81,7 +88,7 @@ def run(method, call, prompt=PROMPT, parse=parse_row):
         write_csv(out_csv, [rows[k] for k in sorted(rows)])
         usage_csv.parent.mkdir(exist_ok=True)
         with open(usage_csv, "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, USAGE_FIELDS, restval="")
+            w = csv.DictWriter(f, USAGE_FIELDS + list(usage_extra), restval="")
             w.writeheader()
             w.writerows(usage[k] for k in sorted(usage))
     failed = sum(bool(u.get("error")) for u in usage.values())

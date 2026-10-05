@@ -1,0 +1,29 @@
+{
+  "invoice_id": "INV-2026-0031",
+  "vendor": "Stratton Oakmont Partners AG",
+  "vendor_country": "Switzerland",
+  "recipient": "Thames Gate Capital Partners LLP",
+  "recipient_country": "United Kingdom",
+  "date": "15 April 2026",
+  "due_date": "29 April 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "5",
+      "unit_price": "1'218.20",
+      "amount": "6'091.00"
+    }
+  ],
+  "subtotal": "6'091.00",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "1'218.20"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "304.55",
+  "discount_wording": "5% early payment discount",
+  "total": "7'004.65",
+  "credit_note_wording": null
+}

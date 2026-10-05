@@ -1,0 +1,67 @@
+{
+  "invoice_id": "INV-2026-0001",
+  "vendor": "Praxis Consulting Group AG",
+  "vendor_country": "Austria",
+  "recipient": "Bergkristall Maschinenbau GmbH",
+  "recipient_country": "Germany",
+  "date": "15 April 2026",
+  "due_date": "15 May 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Travel expenses (Frankfurt–Zürich)",
+      "quantity": "3",
+      "unit_price": "26,614.40",
+      "amount": "79,843.20"
+    },
+    {
+      "description": "Software licence renewal — 50 seats",
+      "quantity": "1",
+      "unit_price": "9,583.60",
+      "amount": "9,583.60"
+    },
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": "1",
+      "unit_price": "2,614.80",
+      "amount": "2,614.80"
+    },
+    {
+      "description": "Hardware procurement — 4 workstations",
+      "quantity": "3",
+      "unit_price": "9,834.20",
+      "amount": "29,502.60"
+    },
+    {
+      "description": "Compliance audit preparation (regulations may have changed since)",
+      "quantity": "50",
+      "unit_price": "185.70",
+      "amount": "9,285.00"
+    },
+    {
+      "description": "Legal opinion — cross-border financing",
+      "quantity": "1",
+      "unit_price": "46,646.20",
+      "amount": "46,646.20"
+    },
+    {
+      "description": "Consulting hours — Senior Partner",
+      "quantity": "1",
+      "unit_price": "32,740.50",
+      "amount": "32,740.50"
+    }
+  ],
+  "subtotal": "210,215.90",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "42,043.18"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "4,204.32",
+  "discount_wording": "2% early payment discount",
+  "total": "248,054.76",
+  "credit_note_wording": null
+}

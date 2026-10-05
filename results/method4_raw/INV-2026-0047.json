@@ -1,0 +1,41 @@
+{
+  "invoice_id": "INV-2026-0047",
+  "vendor": "Bluth Development Company LLC",
+  "vendor_country": "United Kingdom",
+  "recipient": "Bergkristall Maschinenbau GmbH",
+  "recipient_country": "Germany",
+  "date": "26 February 2026",
+  "due_date": "26 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Server maintenance — March 2026",
+      "quantity": "100",
+      "unit_price": "328,60",
+      "amount": "32.860,00"
+    },
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "39.789,90"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "43.902,00"
+    }
+  ],
+  "subtotal": "116.556,90",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "23.310,38"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "139.862,28",
+  "credit_note_wording": null
+}

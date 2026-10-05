@@ -1,0 +1,43 @@
+{
+  "invoice_id": "INV-2026-0014",
+  "vendor": "InGen BioSciences S.A.",
+  "vendor_country": "France",
+  "recipient": "Société Continentale de Logistique S.A.",
+  "recipient_country": "France",
+  "date": "20 January 2026",
+  "due_date": "20 January 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "SEO audit (Q1 2026)",
+      "quantity": "10",
+      "unit_price": "-1,506.80",
+      "amount": "-15,068.00"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "4",
+      "unit_price": "-736.90",
+      "amount": "-2,947.60"
+    },
+    {
+      "description": "Professional indemnity insurance — pro rata",
+      "quantity": null,
+      "unit_price": null,
+      "amount": "-48,335.50"
+    }
+  ],
+  "subtotal": "-66,351.10",
+  "subtotal_includes_vat": false,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [
+    "-13,270.22"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "-79,621.32",
+  "credit_note_wording": "CREDIT NOTE"
+}

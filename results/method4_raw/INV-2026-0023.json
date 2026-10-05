@@ -1,0 +1,71 @@
+{
+  "invoice_id": "INV-2026-0023",
+  "vendor": "Sterling Cooper Draper Pryce",
+  "vendor_country": "United Kingdom",
+  "recipient": "Baltic Amber Services OÜ",
+  "recipient_country": "Estonia",
+  "date": "3 January 2026",
+  "due_date": "2 February 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Executive workshop (2 days)",
+      "quantity": "1",
+      "unit_price": "49.743,24",
+      "amount": "49.743,24"
+    },
+    {
+      "description": "Server maintenance — March 2026",
+      "quantity": "10",
+      "unit_price": "166,32",
+      "amount": "1.663,20"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "1",
+      "unit_price": "29.826,72",
+      "amount": "29.826,72"
+    },
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": "1",
+      "unit_price": "18.183,00",
+      "amount": "18.183,00"
+    },
+    {
+      "description": "Database optimisation retainer — March",
+      "quantity": "3",
+      "unit_price": "19.132,08",
+      "amount": "57.396,24"
+    },
+    {
+      "description": "Quarterly newsletter design",
+      "quantity": "2",
+      "unit_price": "20.499,96",
+      "amount": "40.999,92"
+    },
+    {
+      "description": "Emergency weekend support call (45 minutes, felt longer)",
+      "quantity": "1",
+      "unit_price": "26.202,84",
+      "amount": "26.202,84"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": "10",
+      "unit_price": "2.211,36",
+      "amount": "22.113,60"
+    }
+  ],
+  "subtotal": "246.128,76",
+  "subtotal_includes_vat": true,
+  "vat_rates": [
+    "20%"
+  ],
+  "vat_amounts": [],
+  "reverse_charge_wording": null,
+  "discount_amount": null,
+  "discount_wording": null,
+  "total": "246.128,76",
+  "credit_note_wording": null
+}

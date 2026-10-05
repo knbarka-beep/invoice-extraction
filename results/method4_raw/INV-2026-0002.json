@@ -1,0 +1,59 @@
+{
+  "invoice_id": "INV-2026-0002",
+  "vendor": "ACME Laboratories International S.A.",
+  "vendor_country": "France",
+  "recipient": "Europäische Verwaltungskontor AG",
+  "recipient_country": "Austria",
+  "date": "10 April 2026",
+  "due_date": "10 May 2026",
+  "currency": "EUR",
+  "line_items": [
+    {
+      "description": "Travel expenses (London–Vienna)",
+      "quantity": "2",
+      "unit_price": "23'279.90",
+      "amount": "46'559.80"
+    },
+    {
+      "description": "Executive workshop: 'AI Strategy'",
+      "quantity": "3",
+      "unit_price": "7'734.30",
+      "amount": "23'202.90"
+    },
+    {
+      "description": "Travel expenses (Frankfurt–Zürich)",
+      "quantity": "1",
+      "unit_price": "47'421.00",
+      "amount": "47'421.00"
+    },
+    {
+      "description": "Retainer fee — ongoing counsel",
+      "quantity": "10",
+      "unit_price": "457.30",
+      "amount": "4'573.00"
+    },
+    {
+      "description": "Cloud infrastructure migration — Phase 2 of 7 (estimated)",
+      "quantity": "1",
+      "unit_price": "944.00",
+      "amount": "944.00"
+    },
+    {
+      "description": "Board meeting facilitation",
+      "quantity": "100",
+      "unit_price": "326.50",
+      "amount": "32'650.00"
+    }
+  ],
+  "subtotal": "155'350.70",
+  "subtotal_includes_vat": false,
+  "vat_rates": [],
+  "vat_amounts": [
+    "31'070.14"
+  ],
+  "reverse_charge_wording": null,
+  "discount_amount": "-3'107.01",
+  "discount_wording": "Discount (2% early payment discount)",
+  "total": "188'813.24",
+  "credit_note_wording": null
+}
